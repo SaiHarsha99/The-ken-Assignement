@@ -11,7 +11,6 @@ Sample Images for the webpage
 
 Desktop View
 ------------
-
 ![DesktopView](https://user-images.githubusercontent.com/67738368/87873361-aff1bf00-c9de-11ea-9c9e-29ff913120a9.png)
 
 Mobile View
