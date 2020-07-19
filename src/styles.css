@@ -254,9 +254,14 @@ section h2 span {
   font-weight: bold;
 }
 .events {
-  padding: 20px 0 20px;
+  padding: 20px 0 100px;
   background-color: #ededf0;
 }
+
+.hiding {
+  display: none;
+}
+
 .img-rounded {
   border-radius: 3px;
 }

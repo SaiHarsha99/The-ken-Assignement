@@ -88,32 +88,16 @@ $(function($) {
   });
 });
 
-$(document).ready(function() {
-  var length = $(".moreBox").length;
-  var count = 1;
-  $(".moreBox")
+$(".list-request-negotiating-loadmore").on("click", function() {
+  $(".request-negotiating-item:hidden")
     .slice(0, 3)
     .show();
-  $(".moreBox")
-    .slice(3, 10)
-    .hide();
-  if ($(".blogBox:hidden").length !== 0) {
-    $("#loadMore").show();
+  if ($(".request-negotiating-item:hidden").length < 1) {
+    $(".list-request-negotiating-loadmore").hide();
   }
-  $("#loadMore").on("click", function(e) {
-    e.preventDefault();
+});
 
-    if (count <= length) {
-      count = count + 2;
-      $(".moreBox:hidden")
-        .slice(0, count)
-        .slideDown();
-    }
-    if ($(".moreBox:hidden").length === 0) {
-      $("#loadMore").fadeOut("slow");
-    }
-  });
-
+$(document).ready(function() {
   $(".openNav").on("click", function(e) {
     document.getElementById("myNav1").style.width = "100%";
   });
