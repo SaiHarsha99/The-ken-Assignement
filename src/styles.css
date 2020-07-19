@@ -254,7 +254,7 @@ section h2 span {
   font-weight: bold;
 }
 .events {
-  padding: 20px 0 100px;
+  padding: 20px 0 50px;
   background-color: #ededf0;
 }
 
@@ -281,7 +281,7 @@ section h2 span {
 }
 .timeline-centered {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .timeline-centered:before,
@@ -688,6 +688,7 @@ legend {
 
 #loadMore {
   color: #ff6859;
+  padding: 2px;
 }
 
 /*--------------------------------------------------------------

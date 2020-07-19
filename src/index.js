@@ -50,7 +50,7 @@ import $ from "jQuery";
 
 $(function($) {
   $(".calls").countTo({
-    from: 0,
+    from: 1700,
     to: 1991,
     speed: 3000,
     refreshInterval: 50,
@@ -60,7 +60,7 @@ $(function($) {
 
 $(function($) {
   $(".user").countTo({
-    from: 0,
+    from: 1700,
     to: 5000,
     speed: 3000,
     refreshInterval: 50,
@@ -70,7 +70,7 @@ $(function($) {
 
 $(function($) {
   $(".downloads").countTo({
-    from: 0,
+    from: 1700,
     to: 10000,
     speed: 3000,
     refreshInterval: 50,
@@ -80,7 +80,7 @@ $(function($) {
 
 $(function($) {
   $(".mails").countTo({
-    from: 0,
+    from: 1700,
     to: 2390,
     speed: 3000,
     refreshInterval: 50,
@@ -93,7 +93,7 @@ $(".list-request-negotiating-loadmore").on("click", function() {
     .slice(0, 3)
     .show();
   if ($(".request-negotiating-item:hidden").length < 1) {
-    $(".list-request-negotiating-loadmore").hide();
+    $("#data").replaceWith("No more items to Show :(");
   }
 });
 
