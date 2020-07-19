@@ -12,10 +12,12 @@ Sample Images for the webpage
 Desktop View
 ------------
 
-![Desktop-View](https://user-images.githubusercontent.com/67738368/87871623-3bfbea80-c9cf-11ea-8bd6-5557dd1ba16e.png)
+![DesktopView](https://user-images.githubusercontent.com/67738368/87872480-a8c6b300-c9d6-11ea-8bfa-8f34673abcda.png)
+
 
 Mobile View
 -----------
 
-![Mobile-view](https://user-images.githubusercontent.com/67738368/87871620-3acabd80-c9cf-11ea-81b9-bd9505e62c91.png)
+![MobileView](https://user-images.githubusercontent.com/67738368/87872482-aa907680-c9d6-11ea-801c-4f95b9fced5b.png)
+
 
